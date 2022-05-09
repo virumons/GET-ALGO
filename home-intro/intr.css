@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Poppins:wght@300;600&family=Roboto:wght@300&family=Spectral:wght@700&display=swap');
+
+body{
+    background-color: #171717;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+/*navigation bar*/
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0px;
+    width: 15%;
+    height: 100%;
+    background-color: #141414;
+    overflow: auto;
+    position: fixed;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-bottom:1px solid #262626 ;
+}
+li a.in{
+    background-color: #2ddba7;
+}
+li a:hover:not(.in) {
+    background-color: #555;
+    color: white;
+    transition: 0.2s;
+}
+/*introduction*/
+
+.algo{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    width: 60%;
+    height: auto;
+}
+#al{
+    color: #2ddba7;
+}
+.algo p{
+    font-size: 20px;
+}
+.algo button{
+    padding: 10px;
+    float: right;
+    background-color: transparent;
+    color: white;
+    border: #171717;
+    margin-bottom: 20px;
+}
+.algo button:hover{
+    color: #2ddba7;
+    border-bottom:2px solid #2ddba7;
+    transition: 0.4s;
+}
