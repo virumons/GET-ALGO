@@ -19,8 +19,7 @@ body{
 .tnav{
     overflow: hidden;
 }
-/* From uiverse.io by @satyamchaudharydev */
-/* The switch - the box around the slider */
+
 .switch {
     /* --moon-mask: ; */
      font-size: 17px;
